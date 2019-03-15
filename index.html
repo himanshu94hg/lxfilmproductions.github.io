@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LX Film Productions</title>
+
+<link rel="stylesheet" type="text/css" href="css\stylesLX.css" media="screen">
+<style>
+#one {
+background:linear-gradient(
+				rgba(0,0,0,0.6),
+				rgba(0,0,0,0.6)
+				), url('lx.jpg');
+     }
+</style>
+</head>
+<body>
+<header id="one">
+<img src="images\lx_logo.jpg" alt="lx_logo" width="200" height="200">
+<nav class="two">
+<div>
+<ul >
+<li><a href="#">Home</a></li>
+<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">News</a>
+<div class="dropdown-content">
+<a href="#">Events</a>
+<a href="#">Downloads</a>
+<a href="#">link3</a></div></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">About</a></li>
+<li class="three"><a href="#login" target="black" class="button one">Log In</a></li>
+</ul></div>
+</nav>
+<hgroup>
+<h1 class="four">Learn With Us</h1>
+</hgroup>
+<h2>We provide comprehensive, personalised instruction!</h2><br>
+<p><a href="#" class="button">VIEW PROGRAMS</a>         
+<a href="#" class="button">REGISTRATION</a></p> 
+
+</header>
+<br>
+<br>
+<hgroup id="five">
+<h1 id="welcome">WELCOME TO LX FILM PRODUCTIONS</h1>
+</hgroup>
+<br>
+<br>
+<br><br><br>
+<div id="login">
+<br><br><br>
+  <form action="/action_page.php">
+<fieldset>
+<legend><h3>Log In</h3></legend>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="email">E-mail Id</label>
+<input type="email" id="email" name="email" placeholder="E-mail address.."><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="India">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+  	<option value="australia">Australia</option> 
+ </select>
+  
+    <input type="submit" value="Submit">
+</fieldset>
+  </form>
+<br><br><br>
+</div>
+</body>
+</html>
